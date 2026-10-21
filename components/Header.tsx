@@ -9,12 +9,12 @@ export default function Header() {
 
   return (
     <>
-      <header className="fixed top-0 z-50 w-full bg-[#000814]/95 backdrop-blur-sm border-b border-white/5">
+      <header className="fixed top-0 z-50 w-full bg-[#000814]/30 backdrop-blur-md border-b border-white/5">
         <div className="container mx-auto px-4 h-16 flex items-center justify-between">
           <Link href="/">
             <div className="relative w-48 h-12">
               <Image 
-                src="/logo-advisor.png" 
+                src="/logo.png" 
                 alt="Logo" 
                 fill
                 sizes="(max-width: 768px) 192px, 192px"
@@ -36,7 +36,7 @@ export default function Header() {
           </div>
 
           <div className="flex items-center gap-4">
-            <Link href="#contact" className="hidden sm:block px-4 py-1 text-[9px] font-bold uppercase tracking-widest border border-blue-500/50 text-blue-500 hover:bg-blue-500/10 transition-all rounded-full">
+            <Link href="#contact" className="hidden sm:block px-4 py-1 text-[9px] font-bold uppercase tracking-widest border border-blue-600 text-blue-600 hover:bg-blue-600/10 transition-all rounded-full">
               Contact
             </Link>
 
@@ -56,7 +56,7 @@ export default function Header() {
         </div>
 
         {/* Advertising Disclosure Bar */}
-        <div className="w-full bg-[#161021] py-1.5 border-b border-white/5">
+        <div className="w-full bg-[#000814]/40 backdrop-blur-md py-1.5 border-b border-white/5">
           <div className="container mx-auto px-6 flex justify-center items-center gap-2">
             <div className="w-3 h-3 rounded-full border border-gray-600 flex items-center justify-center text-[8px] text-gray-500 font-bold leading-none">i</div>
             <span className="text-[8px] text-gray-500 uppercase tracking-[0.2em] font-bold">
@@ -67,7 +67,7 @@ export default function Header() {
 
         {/* Mobile Nav */}
         {isOpen && (
-          <div className="md:hidden bg-[#010401] border-b border-white/10 px-6 py-8 flex flex-col gap-6 animate-in slide-in-from-top duration-300">
+          <div className="md:hidden bg-[#000814]/90 border-b border-white/10 px-6 py-8 flex flex-col gap-6 animate-in slide-in-from-top duration-300">
             <Link href="/" onClick={() => setIsOpen(false)} className="text-sm font-bold text-white tracking-widest">ACCUEIL</Link>
             <Link href="#brands" onClick={() => setIsOpen(false)} className="text-sm font-bold text-white tracking-widest">MARQUES</Link>
             <Link href="#guide" onClick={() => setIsOpen(false)} className="text-sm font-bold text-white tracking-widest">GUIDE</Link>

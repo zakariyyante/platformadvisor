@@ -81,8 +81,6 @@
     --color-orange-400: #ff8b1a;
     --color-orange-500: #fe6e00;
     --color-yellow-500: #edb200;
-    --color-emerald-400: #00d294;
-    --color-emerald-500: #00bb7f;
     --color-cyan-400: #00d2ef;
     --color-cyan-500: #00b7d7;
     --color-blue-400: #54a2ff;
@@ -165,8 +163,6 @@
       --color-orange-400: lab(70.0429% 42.5156 75.8207);
       --color-orange-500: lab(64.272% 57.1788 90.3583);
       --color-yellow-500: lab(76.3898% 14.5258 98.4589);
-      --color-emerald-400: lab(75.0771% -60.7313 19.4147);
-      --color-emerald-500: lab(66.9756% -58.27 19.5419);
       --color-cyan-400: lab(76.6045% -40.9406 -29.6231);
       --color-cyan-500: lab(67.805% -35.3952 -30.2018);
       --color-blue-400: lab(65.0361% -1.42065 -56.9802);
@@ -489,6 +485,10 @@
 
   .-z-10 {
     z-index: calc(10 * -1);
+  }
+
+  .-z-20 {
+    z-index: calc(20 * -1);
   }
 
   .z-10 {
@@ -1054,6 +1054,10 @@
     }
   }
 
+  .border-blue-600 {
+    border-color: var(--color-blue-600);
+  }
+
   .border-blue-800\/50 {
     border-color: #193cb880;
   }
@@ -1146,16 +1150,6 @@
     }
   }
 
-  .border-l-emerald-500\/50 {
-    border-left-color: #00bb7f80;
-  }
-
-  @supports (color: color-mix(in lab, red, red)) {
-    .border-l-emerald-500\/50 {
-      border-left-color: color-mix(in oklab, var(--color-emerald-500) 50%, transparent);
-    }
-  }
-
   .bg-\[\#0a0a0f\] {
     background-color: #0a0a0f;
   }
@@ -1165,33 +1159,33 @@
     background-color: lab(2.69125% -3.04377 2.29802 / .8);
   }
 
-  .bg-\[\#000814\] {
-    background-color: #000814;
+  .bg-\[\#000814\]\/20 {
+    background-color: #00081433;
+    background-color: lab(1.95547% -.611305 -6.50244 / .2);
   }
 
-  .bg-\[\#000814\]\/95 {
-    background-color: #000814f2;
-    background-color: lab(1.95547% -.611305 -6.50244 / .95);
+  .bg-\[\#000814\]\/30 {
+    background-color: #0008144d;
+    background-color: lab(1.95547% -.611305 -6.50245 / .3);
+  }
+
+  .bg-\[\#000814\]\/40 {
+    background-color: #00081466;
+    background-color: lab(1.95547% -.611305 -6.50244 / .4);
+  }
+
+  .bg-\[\#000814\]\/90 {
+    background-color: #000814e6;
+    background-color: lab(1.95547% -.611305 -6.50244 / .9);
   }
 
   .bg-\[\#002395\] {
     background-color: #002395;
   }
 
-  .bg-\[\#010401\] {
-    background-color: #010401;
-  }
-
-  .bg-\[\#020205\] {
-    background-color: #020205;
-  }
-
-  .bg-\[\#020617\] {
-    background-color: #020617;
-  }
-
-  .bg-\[\#161021\] {
-    background-color: #161021;
+  .bg-\[\#020617\]\/40 {
+    background-color: #02061766;
+    background-color: lab(1.77049% 1.21939 -8.84593 / .4);
   }
 
   .bg-\[\#b8860b\] {
@@ -1668,10 +1662,6 @@
     color: var(--color-cyan-400);
   }
 
-  .text-emerald-400 {
-    color: var(--color-emerald-400);
-  }
-
   .text-gray-300 {
     color: var(--color-gray-300);
   }
@@ -1769,6 +1759,10 @@
     opacity: .03;
   }
 
+  .mix-blend-screen {
+    mix-blend-mode: screen;
+  }
+
   .shadow-\[0_0_10px_var\(--primary\)\] {
     --tw-shadow: 0 0 10px var(--tw-shadow-color, var(--primary));
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
@@ -1784,8 +1778,8 @@
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
 
-  .shadow-\[0_0_30px_rgba\(184\,134\,11\,0\.35\)\] {
-    --tw-shadow: 0 0 30px var(--tw-shadow-color, #b8860b59);
+  .shadow-\[0_0_30px_rgba\(184\,134\,11\,0\.25\)\] {
+    --tw-shadow: 0 0 30px var(--tw-shadow-color, #b8860b40);
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
 
@@ -1844,6 +1838,12 @@
 
   .backdrop-blur-\[1px\] {
     --tw-backdrop-blur: blur(1px);
+    -webkit-backdrop-filter: var(--tw-backdrop-blur, ) var(--tw-backdrop-brightness, ) var(--tw-backdrop-contrast, ) var(--tw-backdrop-grayscale, ) var(--tw-backdrop-hue-rotate, ) var(--tw-backdrop-invert, ) var(--tw-backdrop-opacity, ) var(--tw-backdrop-saturate, ) var(--tw-backdrop-sepia, );
+    backdrop-filter: var(--tw-backdrop-blur, ) var(--tw-backdrop-brightness, ) var(--tw-backdrop-contrast, ) var(--tw-backdrop-grayscale, ) var(--tw-backdrop-hue-rotate, ) var(--tw-backdrop-invert, ) var(--tw-backdrop-opacity, ) var(--tw-backdrop-saturate, ) var(--tw-backdrop-sepia, );
+  }
+
+  .backdrop-blur-\[2px\] {
+    --tw-backdrop-blur: blur(2px);
     -webkit-backdrop-filter: var(--tw-backdrop-blur, ) var(--tw-backdrop-brightness, ) var(--tw-backdrop-contrast, ) var(--tw-backdrop-grayscale, ) var(--tw-backdrop-hue-rotate, ) var(--tw-backdrop-invert, ) var(--tw-backdrop-opacity, ) var(--tw-backdrop-saturate, ) var(--tw-backdrop-sepia, );
     backdrop-filter: var(--tw-backdrop-blur, ) var(--tw-backdrop-brightness, ) var(--tw-backdrop-contrast, ) var(--tw-backdrop-grayscale, ) var(--tw-backdrop-hue-rotate, ) var(--tw-backdrop-invert, ) var(--tw-backdrop-opacity, ) var(--tw-backdrop-saturate, ) var(--tw-backdrop-sepia, );
   }
@@ -1942,13 +1942,13 @@
       }
     }
 
-    .hover\:bg-blue-500\/10:hover {
-      background-color: #3080ff1a;
+    .hover\:bg-blue-600\/10:hover {
+      background-color: #155dfc1a;
     }
 
     @supports (color: color-mix(in lab, red, red)) {
-      .hover\:bg-blue-500\/10:hover {
-        background-color: color-mix(in oklab, var(--color-blue-500) 10%, transparent);
+      .hover\:bg-blue-600\/10:hover {
+        background-color: color-mix(in oklab, var(--color-blue-600) 10%, transparent);
       }
     }
 
@@ -1988,8 +1988,8 @@
     scale: var(--tw-scale-x) var(--tw-scale-y);
   }
 
-  .active\:shadow-\[0_0_50px_rgba\(184\,134\,11\,0\.6\)\]:active {
-    --tw-shadow: 0 0 50px var(--tw-shadow-color, #b8860b99);
+  .active\:shadow-\[0_0_50px_rgba\(184\,134\,11\,0\.5\)\]:active {
+    --tw-shadow: 0 0 50px var(--tw-shadow-color, #b8860b80);
     box-shadow: var(--tw-inset-shadow), var(--tw-inset-ring-shadow), var(--tw-ring-offset-shadow), var(--tw-ring-shadow), var(--tw-shadow);
   }
 
@@ -2090,14 +2090,13 @@
   --highlight: #00235b;
 }
 
+html {
+  background-color: #000814;
+}
+
 body {
-  background: var(--background);
   color: var(--foreground);
-  background-image: linear-gradient(#000814d9, #000814d9), url("/french-flag-bg.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-attachment: fixed;
+  background-color: #0000;
   font-family: Inter, system-ui, -apple-system, sans-serif;
   overflow-x: hidden;
 }

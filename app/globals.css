@@ -18,15 +18,12 @@
   --highlight: #00235b;
 }
 
+html {
+  background-color: #000814;
+}
+
 body {
-  background: var(--background);
-  background-image: 
-    linear-gradient(rgba(0, 8, 20, 0.85), rgba(0, 8, 20, 0.85)),
-    url('/french-flag-bg.jpg');
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
-  background-repeat: no-repeat;
+  background-color: transparent;
   color: var(--foreground);
   font-family: 'Inter', system-ui, -apple-system, sans-serif;
   overflow-x: hidden;

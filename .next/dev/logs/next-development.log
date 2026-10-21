@@ -54,3 +54,47 @@
 {"timestamp":"00:03:25.582","source":"Server","level":"WARN","message":"[browser] \"Image with src \\\"/begambleaware.webp\\\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \\\"auto\\\"' or 'height: \\\"auto\\\"' to maintain the aspect ratio.\""}
 {"timestamp":"00:03:25.583","source":"Browser","level":"WARN","message":"Image with src \"/joueurs.webp\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio."}
 {"timestamp":"00:03:25.583","source":"Server","level":"WARN","message":"[browser] \"Image with src \\\"/joueurs.webp\\\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \\\"auto\\\"' or 'height: \\\"auto\\\"' to maintain the aspect ratio.\""}
+{"timestamp":"00:19:42.414","source":"Server","level":"LOG","message":"✓ Compiled in 25ms"}
+{"timestamp":"00:20:55.365","source":"Server","level":"LOG","message":"✓ Compiled in 52ms"}
+{"timestamp":"00:20:59.673","source":"Browser","level":"WARN","message":"Image with src \"/brands/pmu.avif\" has \"fill\" but is missing \"sizes\" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes"}
+{"timestamp":"00:20:59.673","source":"Server","level":"WARN","message":"[browser] \"Image with src \\\"/brands/pmu.avif\\\" has \\\"fill\\\" but is missing \\\"sizes\\\" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes\""}
+{"timestamp":"00:21:01.825","source":"Browser","level":"INFO","message":"Download the React DevTools for a better development experience: https://react.dev/link/react-devtools"}
+{"timestamp":"00:21:01.856","source":"Browser","level":"LOG","message":"[Vercel Web Analytics] Debug mode is enabled by default in development. No requests will be sent to the server."}
+{"timestamp":"00:21:01.856","source":"Browser","level":"LOG","message":"[Vercel Web Analytics] Running queued event pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:21:01.856","source":"Browser","level":"LOG","message":"[Vercel Web Analytics] Running queued event pageview {\"path\":\"/\",\"route\":\"/\"}"}
+{"timestamp":"00:21:01.856","source":"Browser","level":"LOG","message":"[Vercel Web Analytics] [view] http://localhost:3000/ {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"2.0.1\",\"sv\":\"0.1.3\",\"ts\":1792592373250} /_vercel/insights/view"}
+{"timestamp":"00:21:01.856","source":"Browser","level":"LOG","message":"[Vercel Web Analytics] [view] http://localhost:3000/ {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"2.0.1\",\"sv\":\"0.1.3\",\"ts\":1792592373251} /_vercel/insights/view"}
+{"timestamp":"00:21:01.856","source":"Browser","level":"WARN","message":"Image with src \"/brands/bwin_dark.png\" has \"fill\" but is missing \"sizes\" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes"}
+{"timestamp":"00:21:01.856","source":"Server","level":"WARN","message":"[browser] \"Image with src \\\"/brands/bwin_dark.png\\\" has \\\"fill\\\" but is missing \\\"sizes\\\" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes\""}
+{"timestamp":"00:21:08.481","source":"Browser","level":"WARN","message":"Image with src \"/brands/pmu.avif\" has \"fill\" but is missing \"sizes\" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes"}
+{"timestamp":"00:21:08.482","source":"Server","level":"WARN","message":"[browser] \"Image with src \\\"/brands/pmu.avif\\\" has \\\"fill\\\" but is missing \\\"sizes\\\" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes\""}
+{"timestamp":"00:21:08.815","source":"Browser","level":"WARN","message":"Image with src \"/18+.png\" has \"fill\" but is missing \"sizes\" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes"}
+{"timestamp":"00:21:08.815","source":"Server","level":"WARN","message":"[browser] \"Image with src \\\"/18+.png\\\" has \\\"fill\\\" but is missing \\\"sizes\\\" prop. Please add it to improve page performance. Read more: https://nextjs.org/docs/api-reference/next/image#sizes\""}
+{"timestamp":"00:21:09.289","source":"Browser","level":"WARN","message":"Image with src \"/mediateur.webp\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio."}
+{"timestamp":"00:21:09.289","source":"Server","level":"WARN","message":"[browser] \"Image with src \\\"/mediateur.webp\\\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \\\"auto\\\"' or 'height: \\\"auto\\\"' to maintain the aspect ratio.\""}
+{"timestamp":"00:21:09.290","source":"Browser","level":"WARN","message":"Image with src \"/anj.webp\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio."}
+{"timestamp":"00:21:09.290","source":"Server","level":"WARN","message":"[browser] \"Image with src \\\"/anj.webp\\\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \\\"auto\\\"' or 'height: \\\"auto\\\"' to maintain the aspect ratio.\""}
+{"timestamp":"00:21:10.865","source":"Browser","level":"WARN","message":"Image with src \"/begambleaware.webp\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio."}
+{"timestamp":"00:21:10.866","source":"Server","level":"WARN","message":"[browser] \"Image with src \\\"/begambleaware.webp\\\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \\\"auto\\\"' or 'height: \\\"auto\\\"' to maintain the aspect ratio.\""}
+{"timestamp":"00:21:11.015","source":"Browser","level":"WARN","message":"Image with src \"/joueurs.webp\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \"auto\"' or 'height: \"auto\"' to maintain the aspect ratio."}
+{"timestamp":"00:21:11.015","source":"Server","level":"WARN","message":"[browser] \"Image with src \\\"/joueurs.webp\\\" has either width or height modified, but not the other. If you use CSS to change the size of your image, also include the styles 'width: \\\"auto\\\"' or 'height: \\\"auto\\\"' to maintain the aspect ratio.\""}
+{"timestamp":"00:21:29.886","source":"Server","level":"LOG","message":"✓ Compiled in 24ms"}
+{"timestamp":"00:21:56.621","source":"Server","level":"LOG","message":"✓ Compiled in 64ms"}
+{"timestamp":"00:22:24.292","source":"Server","level":"LOG","message":"✓ Compiled in 41ms"}
+{"timestamp":"00:22:24.524","source":"Server","level":"LOG","message":"✓ Compiled in 23ms"}
+{"timestamp":"00:22:28.526","source":"Server","level":"LOG","message":"✓ Compiled in 25ms"}
+{"timestamp":"00:22:31.482","source":"Server","level":"LOG","message":"✓ Compiled in 57ms"}
+{"timestamp":"00:22:41.228","source":"Server","level":"LOG","message":"✓ Compiled in 41ms"}
+{"timestamp":"00:22:51.274","source":"Server","level":"LOG","message":"✓ Compiled in 12ms"}
+{"timestamp":"00:23:01.538","source":"Server","level":"LOG","message":"✓ Compiled in 31ms"}
+{"timestamp":"00:23:01.964","source":"Server","level":"LOG","message":"✓ Compiled in 19ms"}
+{"timestamp":"00:23:13.341","source":"Browser","level":"LOG","message":"[Vercel Web Analytics] [view] http://localhost:3000/ {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"2.0.1\",\"sv\":\"0.1.3\",\"ts\":1792592504740} /_vercel/insights/view"}
+{"timestamp":"00:23:13.341","source":"Browser","level":"LOG","message":"[Vercel Web Analytics] [view] http://localhost:3000/ {\"dp\":\"/\",\"o\":\"http://localhost:3000/\",\"sdkn\":\"@vercel/analytics/next\",\"sdkv\":\"2.0.1\",\"sv\":\"0.1.3\",\"ts\":1792592504741} /_vercel/insights/view"}
+{"timestamp":"00:23:15.795","source":"Server","level":"LOG","message":"✓ Compiled in 46ms"}
+{"timestamp":"00:23:17.818","source":"Server","level":"LOG","message":"✓ Compiled in 28ms"}
+{"timestamp":"00:23:20.512","source":"Server","level":"LOG","message":"✓ Compiled in 31ms"}
+{"timestamp":"00:24:40.596","source":"Server","level":"LOG","message":"✓ Compiled in 39ms"}
+{"timestamp":"00:24:41.813","source":"Server","level":"LOG","message":"✓ Compiled in 9ms"}
+{"timestamp":"00:24:49.001","source":"Server","level":"LOG","message":"✓ Compiled in 14ms"}
+{"timestamp":"00:25:03.190","source":"Server","level":"LOG","message":"✓ Compiled in 18ms"}
+{"timestamp":"00:25:04.282","source":"Server","level":"LOG","message":"✓ Compiled in 12ms"}

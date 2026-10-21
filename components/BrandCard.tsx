@@ -62,7 +62,7 @@ export default function BrandCard({ brand, gclid, gclidValue, rank, variant = 'd
 
     return (
       <div 
-        className="bg-[#020617] border border-[#b8860b]/40 rounded-[1.2rem] p-4 relative group pt-8 shadow-[0_0_30px_rgba(184,134,11,0.35)] active:shadow-[0_0_50px_rgba(184,134,11,0.6)] transition-all duration-500"
+        className="bg-[#020617]/40 border border-[#b8860b]/40 rounded-[1.2rem] p-4 relative group pt-8 shadow-[0_0_30px_rgba(184,134,11,0.25)] active:shadow-[0_0_50px_rgba(184,134,11,0.5)] transition-all duration-500 backdrop-blur-sm"
         onClick={handleCardClick}
       >
         <div className="absolute inset-0 bg-[#b8860b]/5 rounded-[1.2rem] blur-xl opacity-50 pointer-events-none -z-10 group-active:opacity-100 transition-opacity" />
@@ -117,7 +117,7 @@ export default function BrandCard({ brand, gclid, gclidValue, rank, variant = 'd
   // Default Desktop variant
   return (
     <div 
-      className="bg-[#020617] border border-white/5 rounded-[2rem] p-8 relative overflow-hidden group transition-all duration-300 hover:border-white/10"
+      className="bg-[#020617]/40 border border-white/5 rounded-[2rem] p-8 relative overflow-hidden group transition-all duration-300 hover:border-white/10 backdrop-blur-sm"
       onClick={handleCardClick}
     >
       <div className="flex flex-col md:flex-row items-center justify-between gap-8 mb-8">

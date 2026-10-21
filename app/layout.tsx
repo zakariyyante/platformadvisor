@@ -6,7 +6,7 @@ import "./globals.css";
 const GA_MEASUREMENT_ID = "AW-18359108026";
 
 export const metadata: Metadata = {
-  title: "Platform Advisor - Les Meilleurs Sites de Jeux en France",
+  title: "Platforms Advisor - Les Meilleurs Sites de Jeux en France",
   description: "Accédez au portail des meilleures plateformes de jeux en France. Critiques d'experts, bonus exclusifs et paiements rapides.",
   icons: {
     icon: "/favicon.png",
@@ -20,7 +20,18 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="fr">
-      <body className="antialiased felt-texture">
+      <body className="antialiased relative">
+        {/* Fixed Background Image */}
+        <div 
+          className="fixed inset-0 -z-20 w-full h-full"
+          style={{
+            backgroundImage: "linear-gradient(rgba(0, 8, 20, 0.2), rgba(0, 8, 20, 0.2)), url('/french-flag-bg.jpg')",
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundAttachment: 'fixed',
+            backgroundRepeat: 'no-repeat'
+          }}
+        />
         {/* Google Tag */}
         <Script
           src={`https://www.googletagmanager.com/gtag/js?id=${GA_MEASUREMENT_ID}`}

@@ -13,27 +13,27 @@ export default function PrivacyPage() {
           
           <div className="prose prose-invert max-w-none text-slate-400 space-y-8 font-light">
             <p className="leading-relaxed">
-              Chez <span className="text-blue-500 font-bold uppercase tracking-widest text-xs">Platform Advisor</span>, accessible depuis platformadvisor.com, la protection de vos métadonnées et de votre vie privée est intégrée par défaut dans notre architecture.
+              Chez <span className="text-blue-500 font-bold uppercase tracking-widest text-xs">Platforms Advisor</span>, accessible depuis platformsadvisor.com, la protection de vos métadonnées et de votre vie privée est intégrée par défaut dans notre architecture.
             </p>
 
             <h2 className="text-xl font-bold text-white uppercase mt-8">Fichiers Journaux</h2>
             <p>
-              Platform Advisor suit une procédure standard d&apos;utilisation des fichiers journaux. Ces fichiers enregistrent les visiteurs lorsqu&apos;ils visitent des sites Web. Toutes les entreprises d&apos;hébergement le font et cela fait partie des analyses des services d&apos;hébergement. Les informations collectées par les fichiers journaux comprennent les adresses de protocole Internet (IP), le type de navigateur, le fournisseur de services Internet (FAI), l&apos;horodatage, les pages de référence/sortie et éventuellement le nombre de clics.
+              Platforms Advisor suit une procédure standard d&apos;utilisation des fichiers journaux. Ces fichiers enregistrent les visiteurs lorsqu&apos;ils visitent des sites Web. Toutes les entreprises d&apos;hébergement le font et cela fait partie des analyses des services d&apos;hébergement. Les informations collectées par les fichiers journaux comprennent les adresses de protocole Internet (IP), le type de navigateur, le fournisseur de services Internet (FAI), l&apos;horodatage, les pages de référence/sortie et éventuellement le nombre de clics.
             </p>
 
             <h2 className="text-xl font-bold text-white uppercase mt-8">Cookies et Balises Web</h2>
             <p>
-              Comme tout autre site Web, Platform Advisor utilise des &quot;cookies&quot;. Ces cookies sont utilisés pour stocker des informations, notamment les préférences des visiteurs et les pages du site Web auxquelles le visiteur a accédé ou qu&apos;il a visitées. Les informations sont utilisées pour optimiser l&apos;expérience des utilisateurs en personnalisant le contenu de notre page Web en fonction du type de navigateur des visiteurs et/ou d&apos;autres informations.
+              Comme tout autre site Web, Platforms Advisor utilise des &quot;cookies&quot;. Ces cookies sont utilisés pour stocker des informations, notamment les préférences des visiteurs et les pages du site Web auxquelles le visiteur a accédé ou qu&apos;il a visitées. Les informations sont utilisées pour optimiser l&apos;expérience des utilisateurs en personnalisant le contenu de notre page Web en fonction du type de navigateur des visiteurs et/ou d&apos;autres informations.
             </p>
 
             <h2 className="text-xl font-bold text-white uppercase mt-8">Politiques de Confidentialité des Tiers</h2>
             <p>
-              La politique de confidentialité de Platform Advisor ne s&apos;applique pas aux autres annonceurs ou sites Web. Ainsi, nous vous conseillons de consulter les politiques de confidentialité respectives de ces serveurs publicitaires tiers pour des informations plus détaillées. Elle peut inclure leurs pratiques et des instructions sur la manière de se retirer de certaines options.
+              La politique de confidentialité de Platforms Advisor ne s&apos;applique pas aux autres annonceurs ou sites Web. Ainsi, nous vous conseillons de consulter les politiques de confidentialité respectives de ces serveurs publicitaires tiers pour des informations plus détaillées. Elle peut inclure leurs pratiques et des instructions sur la manière de se retirer de certaines options.
             </p>
 
             <h2 className="text-xl font-bold text-white uppercase mt-8">Information sur l&apos;Annonceur</h2>
             <p>
-              Platform Advisor est détenu et financé exclusivement par <span className="text-blue-500 font-bold">MAREN LUNDE EGELAND</span>, résidant en Norvège. Cet annonceur prend en charge l&apos;intégralité des coûts publicitaires liés au fonctionnement du site. MAREN LUNDE EGELAND ne possède aucune autre organisation et Platform Advisor ne diffuse aucune publicité politique au sein de l&apos;Union Européenne.
+              Platforms Advisor est détenu et financé exclusivement par <span className="text-blue-500 font-bold">MAREN LUNDE EGELAND</span>, résidant en Norvège. Cet annonceur prend en charge l&apos;intégralité des coûts publicitaires liés au fonctionnement du site. MAREN LUNDE EGELAND ne possède aucune autre organisation et Platforms Advisor ne diffuse aucune publicité politique au sein de l&apos;Union Européenne.
             </p>
 
             <h2 className="text-xl font-bold text-white uppercase mt-8">Consentement</h2>

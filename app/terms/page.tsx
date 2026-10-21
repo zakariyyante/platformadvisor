@@ -13,31 +13,31 @@ export default function TermsPage() {
           
           <div className="prose prose-invert max-w-none text-slate-400 space-y-8 font-light">
             <p className="leading-relaxed">
-              Bienvenue dans le portail <span className="text-blue-500 font-bold uppercase tracking-widest text-xs">Platform Advisor</span>.
+              Bienvenue dans le portail <span className="text-blue-500 font-bold uppercase tracking-widest text-xs">Platforms Advisor</span>.
             </p>
             <p>
-              Ces termes et conditions décrivent les règles et règlements pour l&apos;utilisation du site Web de Platform Advisor, situé à l&apos;adresse platformadvisor.com.
+              Ces termes et conditions décrivent les règles et règlements pour l&apos;utilisation du site Web de Platforms Advisor, situé à l&apos;adresse platformsadvisor.com.
             </p>
             <p>
-              En accédant à ce site Web, nous supposons que vous acceptez ces termes et conditions. Ne continuez pas à utiliser Platform Advisor si vous n&apos;acceptez pas de prendre tous les termes et conditions énoncés sur cette page.
+              En accédant à ce site Web, nous supposons que vous acceptez ces termes et conditions. Ne continuez pas à utiliser Platforms Advisor si vous n&apos;acceptez pas de prendre tous les termes et conditions énoncés sur cette page.
             </p>
 
             <h2 className="text-xl font-bold text-white uppercase mt-8">Licence</h2>
             <p>
-              Sauf indication contraire, Platform Advisor et/ou ses concédants de licence détiennent les droits de propriété intellectuelle pour tout le matériel sur Platform Advisor. Tous les droits de propriété intellectuelle sont réservés. Vous pouvez y accéder à partir de Platform Advisor pour votre usage personnel, sous réserve des restrictions définies dans les présents termes et conditions.
+              Sauf indication contraire, Platforms Advisor et/ou ses concédants de licence détiennent les droits de propriété intellectuelle pour tout le matériel sur Platforms Advisor. Tous les droits de propriété intellectuelle sont réservés. Vous pouvez y accéder à partir de Platforms Advisor pour votre usage personnel, sous réserve des restrictions définies dans les présents termes et conditions.
             </p>
 
             <h2 className="text-xl font-bold text-white uppercase mt-8">Transparence et Propriété</h2>
             <p>
-              Platform Advisor est une plateforme indépendante financée par <span className="text-blue-500 font-bold">MAREN LUNDE EGELAND</span> (Norvège). L&apos;annonceur couvre les frais publicitaires du site et n&apos;est propriétaire d&apos;aucune autre entité commerciale. Nous garantissons que Platform Advisor ne participe à aucune campagne publicitaire politique dans l&apos;UE.
+              Platforms Advisor est une plateforme indépendante financée par <span className="text-blue-500 font-bold">MAREN LUNDE EGELAND</span> (Norvège). L&apos;annonceur couvre les frais publicitaires du site et n&apos;est propriétaire d&apos;aucune autre entité commerciale. Nous garantissons que Platforms Advisor ne participe à aucune campagne publicitaire politique dans l&apos;UE.
             </p>
 
             <h2 className="text-xl font-bold text-white uppercase mt-8">Vous ne devez pas :</h2>
             <ul className="list-disc pl-6 space-y-2">
-              <li>Republier le matériel provenant de Platform Advisor</li>
-              <li>Vendre, louer ou sous-licencier du matériel provenant de Platform Advisor</li>
-              <li>Reproduire, dupliquer ou copier du matériel provenant de Platform Advisor</li>
-              <li>Redistribuer le contenu de Platform Advisor</li>
+              <li>Republier le matériel provenant de Platforms Advisor</li>
+              <li>Vendre, louer ou sous-licencier du matériel provenant de Platforms Advisor</li>
+              <li>Reproduire, dupliquer ou copier du matériel provenant de Platforms Advisor</li>
+              <li>Redistribuer le contenu de Platforms Advisor</li>
             </ul>
 
             <h2 className="text-xl font-bold text-white uppercase mt-8">Avis de Non-responsabilité</h2>

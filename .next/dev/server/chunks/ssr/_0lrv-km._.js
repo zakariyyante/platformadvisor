@@ -527,7 +527,7 @@ function BrandCard({ brand, gclid, gclidValue, rank, variant = 'default', priori
             };
         }
         return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-            className: "bg-[#020617] border border-[#b8860b]/40 rounded-[1.2rem] p-4 relative group pt-8 shadow-[0_0_30px_rgba(184,134,11,0.35)] active:shadow-[0_0_50px_rgba(184,134,11,0.6)] transition-all duration-500",
+            className: "bg-[#020617]/40 border border-[#b8860b]/40 rounded-[1.2rem] p-4 relative group pt-8 shadow-[0_0_30px_rgba(184,134,11,0.25)] active:shadow-[0_0_50px_rgba(184,134,11,0.5)] transition-all duration-500 backdrop-blur-sm",
             onClick: handleCardClick,
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -666,7 +666,7 @@ function BrandCard({ brand, gclid, gclidValue, rank, variant = 'default', priori
     }
     // Default Desktop variant
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-        className: "bg-[#020617] border border-white/5 rounded-[2rem] p-8 relative overflow-hidden group transition-all duration-300 hover:border-white/10",
+        className: "bg-[#020617]/40 border border-white/5 rounded-[2rem] p-8 relative overflow-hidden group transition-all duration-300 hover:border-white/10 backdrop-blur-sm",
         onClick: handleCardClick,
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -865,7 +865,7 @@ function Header() {
     const [isOpen, setIsOpen] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])(false);
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Fragment"], {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("header", {
-            className: "fixed top-0 z-50 w-full bg-[#000814]/95 backdrop-blur-sm border-b border-white/5",
+            className: "fixed top-0 z-50 w-full bg-[#000814]/30 backdrop-blur-md border-b border-white/5",
             children: [
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "container mx-auto px-4 h-16 flex items-center justify-between",
@@ -875,7 +875,7 @@ function Header() {
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                 className: "relative w-48 h-12",
                                 children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                    src: "/logo-advisor.png",
+                                    src: "/logo.png",
                                     alt: "Logo",
                                     fill: true,
                                     sizes: "(max-width: 768px) 192px, 192px",
@@ -962,7 +962,7 @@ function Header() {
                             children: [
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                                     href: "#contact",
-                                    className: "hidden sm:block px-4 py-1 text-[9px] font-bold uppercase tracking-widest border border-blue-500/50 text-blue-500 hover:bg-blue-500/10 transition-all rounded-full",
+                                    className: "hidden sm:block px-4 py-1 text-[9px] font-bold uppercase tracking-widest border border-blue-600 text-blue-600 hover:bg-blue-600/10 transition-all rounded-full",
                                     children: "Contact"
                                 }, void 0, false, {
                                     fileName: "[project]/components/Header.tsx",
@@ -1019,7 +1019,7 @@ function Header() {
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "w-full bg-[#161021] py-1.5 border-b border-white/5",
+                    className: "w-full bg-[#000814]/40 backdrop-blur-md py-1.5 border-b border-white/5",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "container mx-auto px-6 flex justify-center items-center gap-2",
                         children: [
@@ -1051,7 +1051,7 @@ function Header() {
                     columnNumber: 9
                 }, this),
                 isOpen && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                    className: "md:hidden bg-[#010401] border-b border-white/10 px-6 py-8 flex flex-col gap-6 animate-in slide-in-from-top duration-300",
+                    className: "md:hidden bg-[#000814]/90 border-b border-white/10 px-6 py-8 flex flex-col gap-6 animate-in slide-in-from-top duration-300",
                     children: [
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$app$2d$dir$2f$link$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
                             href: "/",
@@ -1165,7 +1165,10 @@ function MobilePopup({ gclid }) {
         "aria-modal": "true",
         "aria-labelledby": "modal-title",
         style: {
-            background: 'linear-gradient(to right, #002395 33.33%, #ffffff 33.33%, #ffffff 66.66%, #ed2939 66.66%)'
+            backgroundImage: "linear-gradient(rgba(0, 8, 20, 0.4), rgba(0, 8, 20, 0.4)), url('/french-flag-bg.jpg')",
+            backgroundSize: 'cover',
+            backgroundPosition: 'center',
+            backgroundAttachment: 'fixed'
         },
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
             className: "min-h-screen flex flex-col bg-black/40 backdrop-blur-[1px]",
@@ -1176,7 +1179,7 @@ function MobilePopup({ gclid }) {
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                             className: "relative w-40 h-10",
                             children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$image$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["default"], {
-                                src: "/logo-advisor.png",
+                                src: "/logo.png",
                                 alt: "Logo",
                                 fill: true,
                                 className: "object-contain object-left scale-150 origin-left",
@@ -1184,12 +1187,12 @@ function MobilePopup({ gclid }) {
                                 sizes: "(max-width: 768px) 160px, 160px"
                             }, void 0, false, {
                                 fileName: "[project]/components/MobilePopup.tsx",
-                                lineNumber: 47,
+                                lineNumber: 50,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/MobilePopup.tsx",
-                            lineNumber: 46,
+                            lineNumber: 49,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
@@ -1202,38 +1205,38 @@ function MobilePopup({ gclid }) {
                                         className: "h-0.5 w-5 bg-blue-600 rounded-full"
                                     }, void 0, false, {
                                         fileName: "[project]/components/MobilePopup.tsx",
-                                        lineNumber: 60,
+                                        lineNumber: 63,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "h-0.5 w-3 bg-blue-600 rounded-full"
                                     }, void 0, false, {
                                         fileName: "[project]/components/MobilePopup.tsx",
-                                        lineNumber: 61,
+                                        lineNumber: 64,
                                         columnNumber: 15
                                     }, this),
                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
                                         className: "h-0.5 w-5 bg-blue-600 rounded-full"
                                     }, void 0, false, {
                                         fileName: "[project]/components/MobilePopup.tsx",
-                                        lineNumber: 62,
+                                        lineNumber: 65,
                                         columnNumber: 15
                                     }, this)
                                 ]
                             }, void 0, true, {
                                 fileName: "[project]/components/MobilePopup.tsx",
-                                lineNumber: 59,
+                                lineNumber: 62,
                                 columnNumber: 13
                             }, this)
                         }, void 0, false, {
                             fileName: "[project]/components/MobilePopup.tsx",
-                            lineNumber: 58,
+                            lineNumber: 61,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/MobilePopup.tsx",
-                    lineNumber: 45,
+                    lineNumber: 48,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1250,7 +1253,7 @@ function MobilePopup({ gclid }) {
                                             "aria-hidden": "true"
                                         }, void 0, false, {
                                             fileName: "[project]/components/MobilePopup.tsx",
-                                            lineNumber: 71,
+                                            lineNumber: 74,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1258,13 +1261,13 @@ function MobilePopup({ gclid }) {
                                             children: "EXCLUSIF MOBILE"
                                         }, void 0, false, {
                                             fileName: "[project]/components/MobilePopup.tsx",
-                                            lineNumber: 72,
+                                            lineNumber: 75,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/MobilePopup.tsx",
-                                    lineNumber: 70,
+                                    lineNumber: 73,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("h2", {
@@ -1277,13 +1280,13 @@ function MobilePopup({ gclid }) {
                                             children: "OFFRES DU JOUR"
                                         }, void 0, false, {
                                             fileName: "[project]/components/MobilePopup.tsx",
-                                            lineNumber: 77,
+                                            lineNumber: 80,
                                             columnNumber: 30
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/MobilePopup.tsx",
-                                    lineNumber: 76,
+                                    lineNumber: 79,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1291,7 +1294,7 @@ function MobilePopup({ gclid }) {
                                     children: "Nouvelles offres, retraits rapides et meilleures plateformes sélectionnées pour vous, avec des bonus exclusifs optimisés pour votre smartphone."
                                 }, void 0, false, {
                                     fileName: "[project]/components/MobilePopup.tsx",
-                                    lineNumber: 79,
+                                    lineNumber: 82,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1370,27 +1373,27 @@ function MobilePopup({ gclid }) {
                                                                         className: "flex-1 bg-[#002395]"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/MobilePopup.tsx",
-                                                                        lineNumber: 106,
+                                                                        lineNumber: 109,
                                                                         columnNumber: 29
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                         className: "flex-1 bg-white"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/MobilePopup.tsx",
-                                                                        lineNumber: 107,
+                                                                        lineNumber: 110,
                                                                         columnNumber: 29
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                                                                         className: "flex-1 bg-[#ed2939]"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/MobilePopup.tsx",
-                                                                        lineNumber: 108,
+                                                                        lineNumber: 111,
                                                                         columnNumber: 29
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/MobilePopup.tsx",
-                                                                lineNumber: 105,
+                                                                lineNumber: 108,
                                                                 columnNumber: 27
                                                             }, this),
                                                             badge.type === 'icon' && badge.icon === 'bitcoin' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -1401,12 +1404,12 @@ function MobilePopup({ gclid }) {
                                                                     d: "M23.638 14.904c-1.602 6.43-8.113 10.34-14.542 8.736C2.67 22.05-1.244 15.525.362 9.105 1.962 2.67 8.474-1.24 14.914.36c6.421 1.593 10.346 8.116 8.724 14.544zM17.415 10.89c.287-1.92-1.747-2.956-4.723-3.645l.966-3.874-2.357-.59-.941 3.77c-.62-.153-1.255-.3-1.886-.44l.948-3.8-2.356-.587-.966 3.874c-.512-.117-1.016-.23-1.508-.347l.002-.012-3.25-.812-.627 2.515s1.75.4 1.712.424c.955.239 1.13.872 1.1 1.374l-.999 4.007c.06.015.138.035.223.057l-.224-.056-1.4 5.61c-.117.293-.413.733-1.08.565.024.034-1.713-.427-1.713-.427l-1.17 2.69 3.067.766c.57.143 1.13.29 1.677.427l-.973 3.915 2.358.588.966-3.875c.644.175 1.265.343 1.877.49l-.963 3.866 2.356.588.973-3.903c4.017.76 7.037.454 8.31-3.177 1.027-2.923-.05-4.608-2.17-5.714 1.543-.356 2.703-1.37 3.011-3.46zm-5.38 5.617c-.728 2.925-5.656 1.344-7.253.945l1.293-5.187c1.597.399 6.702 1.189 5.96 4.242zm1.18-5.648c-.663 2.662-4.767 1.31-6.101.977l1.173-4.704c1.335.334 5.603.959 4.928 3.727z"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/MobilePopup.tsx",
-                                                                    lineNumber: 113,
+                                                                    lineNumber: 116,
                                                                     columnNumber: 29
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/MobilePopup.tsx",
-                                                                lineNumber: 112,
+                                                                lineNumber: 115,
                                                                 columnNumber: 27
                                                             }, this),
                                                             badge.type === 'icon' && badge.icon === 'bank' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -1421,12 +1424,12 @@ function MobilePopup({ gclid }) {
                                                                     d: "M3 21h18M3 10h18M5 10v11M19 10v11M12 10v11M7 10v11M17 10v11M12 3L2 10h20L12 3z"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/MobilePopup.tsx",
-                                                                    lineNumber: 118,
+                                                                    lineNumber: 121,
                                                                     columnNumber: 29
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/MobilePopup.tsx",
-                                                                lineNumber: 117,
+                                                                lineNumber: 120,
                                                                 columnNumber: 27
                                                             }, this),
                                                             badge.type === 'icon' && badge.icon === 'apple' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -1437,12 +1440,12 @@ function MobilePopup({ gclid }) {
                                                                     d: "M17.057 10.774c-.015-2.22 1.815-3.284 1.89-3.333-1.03-1.505-2.626-1.711-3.193-1.737-1.357-.137-2.646.802-3.335.802-.687 0-1.74-.775-2.883-.75-1.501.022-2.884.873-3.657 2.215-1.563 2.716-.399 6.729 1.116 9.17.74 1.066 1.616 2.263 2.766 2.222 1.109-.044 1.528-.718 2.871-.718 1.34 0 1.722.718 2.894.695 1.21-.023 1.96-1.077 2.7-2.17.854-1.246 1.206-2.453 1.226-2.515-.026-.011-2.355-.905-2.379-3.601M14.935 5.215c.61-1.34 1.436-3.2 1.054-4.215-1.12.046-2.483.746-3.284 1.684-.717.838-1.344 2.137-1.173 3.424 1.25.097 2.493-.653 3.403-1.693"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/MobilePopup.tsx",
-                                                                    lineNumber: 123,
+                                                                    lineNumber: 126,
                                                                     columnNumber: 29
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/MobilePopup.tsx",
-                                                                lineNumber: 122,
+                                                                lineNumber: 125,
                                                                 columnNumber: 27
                                                             }, this),
                                                             badge.type === 'icon' && badge.icon === 'google' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -1453,12 +1456,12 @@ function MobilePopup({ gclid }) {
                                                                     d: "M12 0c6.627 0 12 5.373 12 12s-5.373 12-12 12S0 18.627 0 12 5.373 0 12 0zm.01 10.638V8.47H6.536v7.06s1.258 1.342 5.474 1.342c4.215 0 5.556-2.49 5.556-4.526 0-2.036-1.04-3.555-2.731-4.053l-.223.593c1.008.318 1.838 1.177 1.838 2.775 0 1.597-1.084 3.328-4.44 3.328-3.355 0-4.322-1.342-4.322-1.342v-2.012h4.322z"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/MobilePopup.tsx",
-                                                                    lineNumber: 128,
+                                                                    lineNumber: 131,
                                                                     columnNumber: 29
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/MobilePopup.tsx",
-                                                                lineNumber: 127,
+                                                                lineNumber: 130,
                                                                 columnNumber: 27
                                                             }, this),
                                                             badge.type === 'icon' && badge.icon === 'lock' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -1479,20 +1482,20 @@ function MobilePopup({ gclid }) {
                                                                         ry: "2"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/MobilePopup.tsx",
-                                                                        lineNumber: 133,
+                                                                        lineNumber: 136,
                                                                         columnNumber: 29
                                                                     }, this),
                                                                     /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("path", {
                                                                         d: "M7 11V7a5 5 0 0 1 10 0v4"
                                                                     }, void 0, false, {
                                                                         fileName: "[project]/components/MobilePopup.tsx",
-                                                                        lineNumber: 134,
+                                                                        lineNumber: 137,
                                                                         columnNumber: 29
                                                                     }, this)
                                                                 ]
                                                             }, void 0, true, {
                                                                 fileName: "[project]/components/MobilePopup.tsx",
-                                                                lineNumber: 132,
+                                                                lineNumber: 135,
                                                                 columnNumber: 27
                                                             }, this),
                                                             badge.type === 'icon' && badge.icon === 'shield' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -1507,12 +1510,12 @@ function MobilePopup({ gclid }) {
                                                                     d: "M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/MobilePopup.tsx",
-                                                                    lineNumber: 139,
+                                                                    lineNumber: 142,
                                                                     columnNumber: 29
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/MobilePopup.tsx",
-                                                                lineNumber: 138,
+                                                                lineNumber: 141,
                                                                 columnNumber: 27
                                                             }, this),
                                                             badge.type === 'icon' && badge.icon === 'support' && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("svg", {
@@ -1527,12 +1530,12 @@ function MobilePopup({ gclid }) {
                                                                     d: "M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"
                                                                 }, void 0, false, {
                                                                     fileName: "[project]/components/MobilePopup.tsx",
-                                                                    lineNumber: 144,
+                                                                    lineNumber: 147,
                                                                     columnNumber: 29
                                                                 }, this)
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/MobilePopup.tsx",
-                                                                lineNumber: 143,
+                                                                lineNumber: 146,
                                                                 columnNumber: 27
                                                             }, this),
                                                             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
@@ -1540,34 +1543,34 @@ function MobilePopup({ gclid }) {
                                                                 children: badge.text
                                                             }, void 0, false, {
                                                                 fileName: "[project]/components/MobilePopup.tsx",
-                                                                lineNumber: 147,
+                                                                lineNumber: 150,
                                                                 columnNumber: 25
                                                             }, this)
                                                         ]
                                                     }, `${listIdx}-${i}`, true, {
                                                         fileName: "[project]/components/MobilePopup.tsx",
-                                                        lineNumber: 100,
+                                                        lineNumber: 103,
                                                         columnNumber: 23
                                                     }, this))
                                             }, listIdx, false, {
                                                 fileName: "[project]/components/MobilePopup.tsx",
-                                                lineNumber: 87,
+                                                lineNumber: 90,
                                                 columnNumber: 19
                                             }, this))
                                     }, void 0, false, {
                                         fileName: "[project]/components/MobilePopup.tsx",
-                                        lineNumber: 85,
+                                        lineNumber: 88,
                                         columnNumber: 15
                                     }, this)
                                 }, void 0, false, {
                                     fileName: "[project]/components/MobilePopup.tsx",
-                                    lineNumber: 84,
+                                    lineNumber: 87,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/MobilePopup.tsx",
-                            lineNumber: 69,
+                            lineNumber: 72,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1583,12 +1586,12 @@ function MobilePopup({ gclid }) {
                                             priority: index === 0
                                         }, brand.id, false, {
                                             fileName: "[project]/components/MobilePopup.tsx",
-                                            lineNumber: 159,
+                                            lineNumber: 162,
                                             columnNumber: 17
                                         }, this))
                                 }, void 0, false, {
                                     fileName: "[project]/components/MobilePopup.tsx",
-                                    lineNumber: 157,
+                                    lineNumber: 160,
                                     columnNumber: 13
                                 }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1606,12 +1609,12 @@ function MobilePopup({ gclid }) {
                                                         className: "object-contain"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/MobilePopup.tsx",
-                                                        lineNumber: 174,
+                                                        lineNumber: 177,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/MobilePopup.tsx",
-                                                    lineNumber: 173,
+                                                    lineNumber: 176,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1623,12 +1626,12 @@ function MobilePopup({ gclid }) {
                                                         className: "object-contain"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/MobilePopup.tsx",
-                                                        lineNumber: 177,
+                                                        lineNumber: 180,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/MobilePopup.tsx",
-                                                    lineNumber: 176,
+                                                    lineNumber: 179,
                                                     columnNumber: 17
                                                 }, this),
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1640,18 +1643,18 @@ function MobilePopup({ gclid }) {
                                                         className: "object-contain"
                                                     }, void 0, false, {
                                                         fileName: "[project]/components/MobilePopup.tsx",
-                                                        lineNumber: 180,
+                                                        lineNumber: 183,
                                                         columnNumber: 19
                                                     }, this)
                                                 }, void 0, false, {
                                                     fileName: "[project]/components/MobilePopup.tsx",
-                                                    lineNumber: 179,
+                                                    lineNumber: 182,
                                                     columnNumber: 17
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/MobilePopup.tsx",
-                                            lineNumber: 172,
+                                            lineNumber: 175,
                                             columnNumber: 15
                                         }, this),
                                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
@@ -1660,53 +1663,53 @@ function MobilePopup({ gclid }) {
                                                 "L'utilisation doit rester un plaisir. ",
                                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("br", {}, void 0, false, {
                                                     fileName: "[project]/components/MobilePopup.tsx",
-                                                    lineNumber: 184,
+                                                    lineNumber: 187,
                                                     columnNumber: 60
                                                 }, this),
                                                 "Appelez le 09 74 75 13 13 pour de l'aide."
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/components/MobilePopup.tsx",
-                                            lineNumber: 183,
+                                            lineNumber: 186,
                                             columnNumber: 15
                                         }, this)
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/components/MobilePopup.tsx",
-                                    lineNumber: 171,
+                                    lineNumber: 174,
                                     columnNumber: 13
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/components/MobilePopup.tsx",
-                            lineNumber: 156,
+                            lineNumber: 159,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/components/MobilePopup.tsx",
-                    lineNumber: 68,
+                    lineNumber: 71,
                     columnNumber: 9
                 }, this),
                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                     className: "bg-black/40 p-6 border-t border-white/5 text-center mt-auto",
                     children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
                         className: "text-[8px] text-white/10 uppercase tracking-[0.4em] font-black",
-                        children: "© 2026 PLATFORMADVISOR.COM"
+                        children: "© 2026 PLATFORMSADVISOR.COM"
                     }, void 0, false, {
                         fileName: "[project]/components/MobilePopup.tsx",
-                        lineNumber: 193,
+                        lineNumber: 196,
                         columnNumber: 11
                     }, this)
                 }, void 0, false, {
                     fileName: "[project]/components/MobilePopup.tsx",
-                    lineNumber: 192,
+                    lineNumber: 195,
                     columnNumber: 9
                 }, this)
             ]
         }, void 0, true, {
             fileName: "[project]/components/MobilePopup.tsx",
-            lineNumber: 43,
+            lineNumber: 46,
             columnNumber: 7
         }, this)
     }, void 0, false, {

@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function DisclaimerBar() {
   return (
-    <section className="bg-[#000814] border-t border-white/5 py-12 px-6">
+    <section className="bg-[#000814]/20 backdrop-blur-[1px] border-t border-white/5 py-12 px-6">
       <div className="container mx-auto flex flex-col lg:flex-row items-center justify-between gap-12">
         {/* Left: 18+ and Warning */}
         <div className="flex flex-col md:flex-row items-center gap-6 max-w-xl">

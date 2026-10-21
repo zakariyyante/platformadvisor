@@ -37,7 +37,10 @@ export default function MobilePopup({ gclid }: MobilePopupProps) {
       aria-modal="true"
       aria-labelledby="modal-title"
       style={{
-        background: 'linear-gradient(to right, #002395 33.33%, #ffffff 33.33%, #ffffff 66.66%, #ed2939 66.66%)'
+        backgroundImage: "linear-gradient(rgba(0, 8, 20, 0.4), rgba(0, 8, 20, 0.4)), url('/french-flag-bg.jpg')",
+        backgroundSize: 'cover',
+        backgroundPosition: 'center',
+        backgroundAttachment: 'fixed'
       }}
     >
       <div className="min-h-screen flex flex-col bg-black/40 backdrop-blur-[1px]">
@@ -45,7 +48,7 @@ export default function MobilePopup({ gclid }: MobilePopupProps) {
         <div className="sticky top-0 z-[110] bg-[#040c04]/80 backdrop-blur-xl border-b border-white/5 px-4 py-3 flex items-center justify-between">
           <div className="relative w-40 h-10">
             <Image 
-              src="/logo-advisor.png" 
+              src="/logo.png" 
               alt="Logo" 
               fill 
               className="object-contain object-left scale-150 origin-left" 
@@ -191,7 +194,7 @@ export default function MobilePopup({ gclid }: MobilePopupProps) {
         {/* Modal Footer */}
         <div className="bg-black/40 p-6 border-t border-white/5 text-center mt-auto">
           <div className="text-[8px] text-white/10 uppercase tracking-[0.4em] font-black">
-            © 2026 PLATFORMADVISOR.COM
+            © 2026 PLATFORMSADVISOR.COM
           </div>
         </div>
       </div>

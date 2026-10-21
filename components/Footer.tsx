@@ -5,14 +5,14 @@ export default function Footer() {
   const currentYear = new Date().getFullYear();
 
   return (
-    <footer className="bg-[#000814] pt-24 pb-12 border-t border-white/5">
+    <footer className="bg-[#000814]/30 backdrop-blur-[2px] pt-24 pb-12 border-t border-white/5">
       <div className="container mx-auto px-6">
         {/* Centered Logo */}
         <div className="flex justify-center mb-20">
           <Link href="/">
             <div className="relative w-48 h-24">
               <Image 
-                src="/logo-advisor.png" 
+                src="/logo.png" 
                 alt="Logo" 
                 fill
                 sizes="(max-width: 768px) 192px, 192px"
@@ -28,14 +28,14 @@ export default function Footer() {
               <span className="w-4 h-[1px] bg-blue-500" /> DIVULGATION D&apos;AFFILIATION
             </h4>
             <p className="text-gray-500 text-[10px] leading-loose font-bold tracking-widest uppercase mb-8">
-              Platform Advisor opère comme un comparateur indépendant. Des rémunérations affiliées peuvent être perçues auprès des opérateurs mentionnés ici. Ces partenariats peuvent influer sur le classement des enseignes, sans toutefois altérer la neutralité de nos évaluations issues de tests concrets.
+              Platforms Advisor opère comme un comparateur indépendant. Des rémunérations affiliées peuvent être perçues auprès des opérateurs mentionnés ici. Ces partenariats peuvent influer sur le classement des enseignes, sans toutefois altérer la neutralité de nos évaluations issues de tests concrets.
             </p>
             
             <h4 className="text-white font-black uppercase tracking-[0.2em] mb-8 text-[11px] flex items-center gap-2">
               <span className="w-4 h-[1px] bg-blue-500" /> INFORMATION SUR L&apos;ANNONCEUR
             </h4>
             <p className="text-gray-500 text-[10px] leading-loose font-bold tracking-widest uppercase">
-              Ce site est financé par <span className="text-white">MAREN LUNDE EGELAND</span> (Norvège). L&apos;annonceur prend en charge les coûts publicitaires de Platform Advisor et ne possède aucune autre organisation. Platform Advisor ne diffuse aucune publicité à caractère politique au sein de l&apos;Union Européenne.
+              Ce site est financé par <span className="text-white">MAREN LUNDE EGELAND</span> (Norvège). L&apos;annonceur prend en charge les coûts publicitaires de Platforms Advisor et ne possède aucune autre organisation. Platforms Advisor ne diffuse aucune publicité à caractère politique au sein de l&apos;Union Européenne.
             </p>
 
             <div className="flex items-center gap-2 mt-6">
@@ -78,7 +78,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="text-center border-t border-white/5 pt-10">
           <p className="text-gray-700 text-[9px] font-bold uppercase tracking-[0.2em]">
-            © {currentYear} platformadvisor.com • Tous Droits Réservés
+            © {currentYear} platformsadvisor.com • Tous Droits Réservés
           </p>
         </div>
       </div>

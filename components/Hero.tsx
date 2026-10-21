@@ -2,9 +2,14 @@ import Image from "next/image";
 
 export default function Hero() {
   const currentYear = new Date().getFullYear();
+  const formattedDate = new Date().toLocaleDateString('fr-FR', {
+    day: 'numeric',
+    month: 'long',
+    year: 'numeric'
+  });
 
   return (
-    <section className="relative pt-32 pb-20 px-6 overflow-hidden bg-[#000814]">
+    <section className="relative pt-32 pb-20 px-6 overflow-hidden">
       {/* Background Gradient Effect */}
       <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-full h-full max-w-7xl bg-blue-900/10 blur-[150px] rounded-full -z-10" />
       
@@ -27,7 +32,7 @@ export default function Hero() {
         </p>
 
         <div className="text-[10px] text-gray-600 uppercase font-bold tracking-widest mb-8">
-          Mise à jour · 5 août {currentYear}
+          Mise à jour · {formattedDate}
         </div>
         
         <div className="flex items-center justify-center gap-6 mb-24">
