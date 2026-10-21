@@ -20,7 +20,7 @@ const metadata = {
     title: "Platforms Advisor - Les Meilleurs Sites de Jeux en France",
     description: "Accédez au portail des meilleures plateformes de jeux en France. Critiques d'experts, bonus exclusifs et paiements rapides.",
     icons: {
-        icon: "/favicon.png"
+        icon: "/favicon.ico"
     }
 };
 function RootLayout({ children }) {
